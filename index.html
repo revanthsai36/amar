@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amarnath Yeddula</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #dbe1e8;
+      color: #333;
+    }
+    header {
+      background-color: #5f6c7b;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      font-family: cursive;
+      margin: 0;
+      font-size: 26px;
+    }
+    header h1 a {
+      text-decoration: underline;
+      color: white;
+    }
+    nav a {
+      margin-left: 20px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .main {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: white;
+      margin: 40px auto;
+      max-width: 1000px;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    .left, .right {
+      flex: 1 1 400px;
+      padding: 40px;
+    }
+    .left h2 {
+      font-size: 32px;
+      margin-top: 0;
+    }
+    .left p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .left button {
+      margin-top: 20px;
+      padding: 12px 20px;
+      font-size: 16px;
+      background-color: #5f6c7b;
+      color: white;
+      border: 2px solid #5f6c7b;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .left button:hover {
+      background-color: white;
+      color: #5f6c7b;
+    }
+    .right img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .footer {
+      background-color: #dbe1e8;
+      padding: 30px 0 50px;
+      text-align: center;
+    }
+    .footer .button {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+      font-size: 16px;
+    }
+    .footer .button:hover {
+      background-color: #0056b3;
+    }
+    .footer .icon-button {
+      display: inline-block;
+      margin: 10px;
+      width: 42px;
+      height: 42px;
+      background-color: #0A66C2;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 42px;
+      vertical-align: middle;
+    }
+    .footer .icon-button img {
+      width: 24px;
+      height: 24px;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><a href="index.html">Amarnath Yeddula</a></h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="resume.html">Resume</a>
+      <a href="research.html">Research</a>
+      <a href="outreach.html">Outreach</a>
+      <a href="personal.html">Personal</a>
+    </nav>
+  </header>
+  <div class="main">
+    <div class="left">
+      <h2>Meet Amarnath</h2>
+      <p>
+        Amarnath Yeddula is a transformational leader in global operations and supply chain strategy with over 20 years of executive experience.
+        He has led turnarounds and scaled operations at global enterprises like AMETEK, Kohler, Shaw, Philips, and Whirlpool.
+        His strengths include SIOP, SAP/ERP transformation, inventory optimization, and AI-driven supply chain visibility.
+        Beyond boardrooms and KPIs, Amarnath is committed to mentoring, building inclusive teams, and fostering digital transformation that empowers people.
+      </p>
+      <button onclick="location.href='resume.html'">Read More</button>
+    </div>
+    <div class="right">
+      <img src="profile.jpg" alt="Amarnath Yeddula" />
+    </div>
+  </div>
+  <div class="footer">
+    <a class="button" href="Amarnath_yeddula.pdf" target="_blank">Download CV</a>
+    <a class="icon-button" href="https://www.linkedin.com/in/profileamar/" target="_blank">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAATFJREFUWEdjZKAQMFBQUKD+gZGBgf5nw4iJiYk5/fz8A0TEz88+fP+fDhw0rExESMNRoMBuBgYGBIhEIpAcHB0X//v1b/fv3b8DAwPDgwYNz8OBBCIShsCgkJCRmYmBj+/v4MDAw8ffp0/f//f8TExAwtLS+MfP36MUlJSFBQUZKampj5//pwoKChYbGyv//v1bQ6HQ4ubmBgYG9fv06Y8aMGdnZ2YWFhWn16lUFBQV///t3BwcHLzExcf///6cOHGjs2LFD8fHxIyMjA+fn59rZ2dnMzMyUpaVl////HwYGBlxRUVEff/yxQ0NDycnJr7BixYp+fn4sLS3Fzc1NTU1Py8vK5ubmFiYkJrVu3Dqampv7+/sbGxsbS0tNjYWKZpMwCSkJGbkljkpAAAAAElFTkSuQmCC" alt="LinkedIn" />
+    </a>
+  </div>
+</body>
+</html>
